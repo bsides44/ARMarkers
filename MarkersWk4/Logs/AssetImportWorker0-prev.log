@@ -1,0 +1,1002 @@
+Unity Editor version:    2020.3.17f1 (a4537701e4ab)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.5.2 (Build 20G95)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/Shared/Unity/MarkersWk4
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51729
+Successfully changed project path to: /Users/Shared/Unity/MarkersWk4
+/Users/Shared/Unity/MarkersWk4
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 66.52 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 12.08 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Shared/Unity/MarkersWk4/Assets
+GfxDevice: creating device client; threaded=0
+2021-08-30 11:24:12.558 Unity[19139:765937] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-08-30 11:24:12.558 Unity[19139:765937] Metal devices available: 1
+2021-08-30 11:24:12.558 Unity[19139:765937] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-08-30 11:24:12.559 Unity[19139:765937] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56139
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.004929 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.40 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.35 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.454 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6455ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (697ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014992 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.37 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.51 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.071 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2072ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1669ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (544ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (689ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (486ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000750 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000723 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.80 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.32 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.4 MB.
+System memory in use after: 188.5 MB.
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 2563.
+Total: 5.006917 ms (FindLiveObjects: 0.339739 ms CreateObjectMapping: 0.157558 ms MarkObjects: 3.867821 ms  DeleteObjects: 0.640790 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(4efd8f9555a364d0e96cbc8a1f1a23a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(4efd8f9555a364d0e96cbc8a1f1a23a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04a1014cb0eb0824166dce433e040b6') in 1.041881 seconds 
+  Import took 1.045777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1117.962869 seconds.
+  path: Assets/greenMaterial.mat
+  artifactKey: Guid(7a735fb5cd27d4849a63378d94850d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greenMaterial.mat using Guid(7a735fb5cd27d4849a63378d94850d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a39d78bda8ac6a0eb62594b1f25cb4') in 0.592233 seconds 
+  Import took 0.612149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.071900 seconds.
+  path: Assets/stripedNormalMap.jpg
+  artifactKey: Guid(504e3767294d244a2a6801fef98858f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stripedNormalMap.jpg using Guid(504e3767294d244a2a6801fef98858f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ff1c94fc2db8a17bedae5560aced44') in 1.267830 seconds 
+  Import took 1.274805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.914380 seconds.
+  path: Assets/stripedNormalMap.jpg
+  artifactKey: Guid(504e3767294d244a2a6801fef98858f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stripedNormalMap.jpg using Guid(504e3767294d244a2a6801fef98858f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02166aefdf359d073187dfb319b7a900') in 0.049615 seconds 
+  Import took 0.056576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.799354 seconds.
+  path: Assets/greenMaterial.mat
+  artifactKey: Guid(7a735fb5cd27d4849a63378d94850d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greenMaterial.mat using Guid(7a735fb5cd27d4849a63378d94850d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7aaafb93a9b37aab8edf0464df7e6e') in 0.066537 seconds 
+  Import took 0.072046 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.96 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 11.96 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 16.858837 ms (FindLiveObjects: 0.693762 ms CreateObjectMapping: 0.229517 ms MarkObjects: 15.782668 ms  DeleteObjects: 0.150832 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 21.81 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 10.91 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 33.990933 ms (FindLiveObjects: 1.325197 ms CreateObjectMapping: 0.180050 ms MarkObjects: 32.314723 ms  DeleteObjects: 0.169199 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.05 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.65 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 35.034370 ms (FindLiveObjects: 1.002892 ms CreateObjectMapping: 0.217864 ms MarkObjects: 33.616399 ms  DeleteObjects: 0.195432 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.49 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.18 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 34.023150 ms (FindLiveObjects: 1.777638 ms CreateObjectMapping: 0.236473 ms MarkObjects: 31.797825 ms  DeleteObjects: 0.209921 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5277.497127 seconds.
+  path: Assets/meBonesSimple.fbx
+  artifactKey: Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBonesSimple.fbx using Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f2592e8bf48979b1f9c68e0e116b13') in 1.657274 seconds 
+  Import took 1.698949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.928008 seconds.
+  path: Assets/texture0.jpg
+  artifactKey: Guid(80e92928c60b043a69cf3682960a5675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture0.jpg using Guid(80e92928c60b043a69cf3682960a5675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47df770e368a54ca6232849163fff75') in 0.382682 seconds 
+  Import took 0.389835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/texture1.jpg
+  artifactKey: Guid(12dd5c1eedde84de99ddb7c0bd4a1829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture1.jpg using Guid(12dd5c1eedde84de99ddb7c0bd4a1829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba7339400cabfb40c3d0dbe0e73ceb4') in 0.298702 seconds 
+  Import took 0.302804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/texture2.jpg
+  artifactKey: Guid(97fb4e731900f4717bc36792ea247b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture2.jpg using Guid(97fb4e731900f4717bc36792ea247b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109ed57702bd9460083980eb47bbdb3e') in 0.091119 seconds 
+  Import took 0.095450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.388142 seconds.
+  path: Assets/meBonesSimple.fbx
+  artifactKey: Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBonesSimple.fbx using Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20451ec297ce1afdc18c2f2cadd2f316') in 0.017242 seconds 
+  Import took 0.021722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009870 seconds.
+  path: Assets/meBonesSimple.fbx
+  artifactKey: Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBonesSimple.fbx using Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20451ec297ce1afdc18c2f2cadd2f316') in 0.017745 seconds 
+  Import took 0.023891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.942568 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c945305477056462c885210607f6911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c945305477056462c885210607f6911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cffe43408d3b5300faedc05a0f13d3') in 0.002399 seconds 
+  Import took 0.013479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.786566 seconds.
+  path: Assets/meBonesSimple.fbx
+  artifactKey: Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBonesSimple.fbx using Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011c57f0a31ee387b456688dc4d249e6') in 0.012519 seconds 
+  Import took 0.016545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009770 seconds.
+  path: Assets/meBonesSimple.fbx
+  artifactKey: Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBonesSimple.fbx using Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011c57f0a31ee387b456688dc4d249e6') in 0.009390 seconds 
+  Import took 0.014217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.457712 seconds.
+  path: Assets/meBonesSimple.fbx
+  artifactKey: Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBonesSimple.fbx using Guid(069c45189e3a74ba5987076ec3f73170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9dc79e06c629a62267b0afc2d0846a') in 0.016903 seconds 
+  Import took 0.025094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.164989 seconds.
+  path: Assets/meBones_export.fbx
+  artifactKey: Guid(430ce8dbb97234dd7968b1a898a3450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBones_export.fbx using Guid(430ce8dbb97234dd7968b1a898a3450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a835d35e55b2b5b5170a479e22cb2a2') in 1.569241 seconds 
+  Import took 1.575153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.352114 seconds.
+  path: Assets/meBones_export.fbx
+  artifactKey: Guid(430ce8dbb97234dd7968b1a898a3450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBones_export.fbx using Guid(430ce8dbb97234dd7968b1a898a3450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4d1afca3288ae1faf3573ad283060d') in 0.701615 seconds 
+  Import took 0.708324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.718368 seconds.
+  path: Assets/meBones_export.fbx
+  artifactKey: Guid(430ce8dbb97234dd7968b1a898a3450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBones_export.fbx using Guid(430ce8dbb97234dd7968b1a898a3450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2630229caf496c530154ef7867920ea') in 0.097203 seconds 
+  Import took 0.103402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.680149 seconds.
+  path: Assets/meBones_materials.fbx
+  artifactKey: Guid(de3b6a7032fa64e0dad93aacc1dac511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBones_materials.fbx using Guid(de3b6a7032fa64e0dad93aacc1dac511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564066a9c6205b14389a55527d62024b') in 0.739357 seconds 
+  Import took 0.746278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.910577 seconds.
+  path: Assets/meBones_materials.fbx
+  artifactKey: Guid(de3b6a7032fa64e0dad93aacc1dac511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBones_materials.fbx using Guid(de3b6a7032fa64e0dad93aacc1dac511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8709bdd4785abbe01026fa08f12dfece') in 0.692872 seconds 
+  Import took 0.698789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 305.278450 seconds.
+  path: Assets/New Animator Controller.controller
+  artifactKey: Guid(dc66564a1b921408e87cb7120e619991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Animator Controller.controller using Guid(dc66564a1b921408e87cb7120e619991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd036f5b577ed4cd8e251c7eb28bdcc5c') in 0.296595 seconds 
+  Import took 0.302909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.401663 seconds.
+  path: Assets/MeModel_animator.controller
+  artifactKey: Guid(dc66564a1b921408e87cb7120e619991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeModel_animator.controller using Guid(dc66564a1b921408e87cb7120e619991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dbb441be4b52343a0fb4c93730d707') in 0.006701 seconds 
+  Import took 0.013242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.357463 seconds.
+  path: Assets/meBones_animated.fbx
+  artifactKey: Guid(cfa66ecfd7de440e68fa8f1077be2cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBones_animated.fbx using Guid(cfa66ecfd7de440e68fa8f1077be2cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250f0e65fa58d4924094f1117ea475a4') in 0.738033 seconds 
+  Import took 0.747066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.118188 seconds.
+  path: Assets/rig_idle.anim
+  artifactKey: Guid(795510c219a2346c29d97c8d601706e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rig_idle.anim using Guid(795510c219a2346c29d97c8d601706e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e373e4fc1ec88de1e835542baf7716') in 0.222035 seconds 
+  Import took 0.227697 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.86 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.902 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1903ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (179ms)
+		EndReloadAssembly (1519ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (490ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (636ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (10ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (444ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.55 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.4 MB.
+System memory in use after: 225.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2612.
+Total: 4.323840 ms (FindLiveObjects: 0.362292 ms CreateObjectMapping: 0.145935 ms MarkObjects: 3.736978 ms  DeleteObjects: 0.077466 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 399.778898 seconds.
+  path: Assets/meBones_animated.fbx
+  artifactKey: Guid(cfa66ecfd7de440e68fa8f1077be2cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBones_animated.fbx using Guid(cfa66ecfd7de440e68fa8f1077be2cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b715c7d2ae2e61c858b5b3e9a55cc861') in 1.269349 seconds 
+  Import took 1.279808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.066133 seconds.
+  path: Assets/meBones_animated.fbx
+  artifactKey: Guid(cfa66ecfd7de440e68fa8f1077be2cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meBones_animated.fbx using Guid(cfa66ecfd7de440e68fa8f1077be2cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e97285a21edef9686db7fa8cfcb5fe') in 0.676917 seconds 
+  Import took 0.684444 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.26 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1819ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1555ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (474ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (666ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (481ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.54 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.9 MB.
+System memory in use after: 226.0 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 4.726050 ms (FindLiveObjects: 0.290141 ms CreateObjectMapping: 0.075161 ms MarkObjects: 4.285908 ms  DeleteObjects: 0.073540 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.28 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1773ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1516ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (631ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (437ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.03 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.2 MB.
+System memory in use after: 226.2 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2619.
+Total: 3.635497 ms (FindLiveObjects: 0.250293 ms CreateObjectMapping: 0.065990 ms MarkObjects: 3.233669 ms  DeleteObjects: 0.084508 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.70 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.52 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.7 MB.
+System memory in use after: 191.8 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2619.
+Total: 6.268371 ms (FindLiveObjects: 0.361572 ms CreateObjectMapping: 0.171411 ms MarkObjects: 5.633410 ms  DeleteObjects: 0.100383 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010884 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 9.07 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2111ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (175ms)
+		EndReloadAssembly (1734ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (695ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (634ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (10ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.67 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.06 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.4 MB.
+System memory in use after: 226.5 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2622.
+Total: 4.163511 ms (FindLiveObjects: 0.348533 ms CreateObjectMapping: 0.068517 ms MarkObjects: 3.645759 ms  DeleteObjects: 0.099508 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.84 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.19 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.9 MB.
+System memory in use after: 192.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2622.
+Total: 5.177138 ms (FindLiveObjects: 0.541319 ms CreateObjectMapping: 0.248540 ms MarkObjects: 4.276321 ms  DeleteObjects: 0.109364 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1776.107187 seconds.
+  path: Assets/Editor/Vuforia
+  artifactKey: Guid(bd8163d75050040bab0eddca5d582026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia using Guid(bd8163d75050040bab0eddca5d582026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04694019927d5c899ec176ce04a14506') in 0.019031 seconds 
+  Import took 0.051566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.022511 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures
+  artifactKey: Guid(f343980fed57645a3b11c141223e41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures using Guid(f343980fed57645a3b11c141223e41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431f7bd9d731b45c2782443a01e38c53') in 0.002277 seconds 
+  Import took 0.008732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.810696 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/iMarker
+  artifactKey: Guid(828e1f1dde88e48469f1007179918f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/iMarker using Guid(828e1f1dde88e48469f1007179918f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc007e8419420c13b9f9ee81dead037b') in 0.002916 seconds 
+  Import took 0.015022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137018 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/iMarker/TwoFactor_scaled.jpg
+  artifactKey: Guid(fa1f753cf0be48bfa14d9b062fad2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/iMarker/TwoFactor_scaled.jpg using Guid(fa1f753cf0be48bfa14d9b062fad2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19aa05dc6c965c667cdad1503562f8d0') in 0.219359 seconds 
+  Import took 0.227047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3137.932234 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004695 seconds 
+  Import took 0.036199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.562979 seconds.
+  path: Assets/meModel
+  artifactKey: Guid(a765a4bd461f543f38ee095a8f441659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meModel using Guid(a765a4bd461f543f38ee095a8f441659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b161aea5d521b1b0e219e803f8d7562d') in 0.007867 seconds 
+  Import took 0.015135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.684603 seconds.
+  path: Assets/rig_idle.anim
+  artifactKey: Guid(795510c219a2346c29d97c8d601706e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rig_idle.anim using Guid(795510c219a2346c29d97c8d601706e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8473b3d7252b2f938436dce5f65e0d98') in 0.032094 seconds 
+  Import took 0.041836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.403647 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(076b738790b0b4b62a6256b093916659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(076b738790b0b4b62a6256b093916659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961f7287139422ad3c772a2c5a7056ff') in 0.053361 seconds 
+  Import took 0.059772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.556735 seconds.
+  path: Assets/Cube.prefab
+  artifactKey: Guid(0ca974247198e4b7b95e426f464eb39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(0ca974247198e4b7b95e426f464eb39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914c89350855a800724bbcfd78f194a2') in 0.584361 seconds 
+  Import took 0.593493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.507959 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(a097bcdfbc78c40e9a0260a817f93e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(a097bcdfbc78c40e9a0260a817f93e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c953d9be50b35ca77338cd899479106e') in 0.057094 seconds 
+  Import took 0.064034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.266072 seconds.
+  path: Assets/meModel/meBones_materials.fbx
+  artifactKey: Guid(de3b6a7032fa64e0dad93aacc1dac511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meModel/meBones_materials.fbx using Guid(de3b6a7032fa64e0dad93aacc1dac511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec5f7990624332fee41e6575fa01b45') in 0.871629 seconds 
+  Import took 0.877820 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.69 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 9.08 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.8 MB.
+System memory in use after: 197.9 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2625.
+Total: 20.088194 ms (FindLiveObjects: 0.534132 ms CreateObjectMapping: 0.174557 ms MarkObjects: 19.293280 ms  DeleteObjects: 0.084643 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

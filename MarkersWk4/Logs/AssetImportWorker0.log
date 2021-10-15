@@ -1,0 +1,994 @@
+Unity Editor version:    2020.3.17f1 (a4537701e4ab)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.5.2 (Build 20G95)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/Shared/Unity/MarkersWk4
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64833
+Successfully changed project path to: /Users/Shared/Unity/MarkersWk4
+/Users/Shared/Unity/MarkersWk4
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.72 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 13.48 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Shared/Unity/MarkersWk4/Assets
+GfxDevice: creating device client; threaded=0
+2021-08-31 14:01:17.145 Unity[35310:1091027] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-08-31 14:01:17.145 Unity[35310:1091027] Metal devices available: 1
+2021-08-31 14:01:17.145 Unity[35310:1091027] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-08-31 14:01:17.145 Unity[35310:1091027] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56310
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.002781 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 55.54 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 9.54 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8079ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009584 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.67 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 9.83 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.902 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3904ms)
+		BeginReloadAssembly (482ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (3293ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (312ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (890ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.023198 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.041299 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 2.73 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 13.23 ms.
+Unloading 1827 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.0 MB.
+System memory in use after: 189.1 MB.
+
+Unloading 153 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 7.058752 ms (FindLiveObjects: 0.448150 ms CreateObjectMapping: 0.208816 ms MarkObjects: 5.271573 ms  DeleteObjects: 1.128723 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/meModel/EnvironmentProbeVisualizer.cs
+  artifactKey: Guid(90545e592da834f3a989e28fc7ae4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meModel/EnvironmentProbeVisualizer.cs using Guid(90545e592da834f3a989e28fc7ae4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5fa5913e72368394cfe6cef818f144') in 0.940583 seconds 
+  Import took 0.963928 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.42 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2014ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (1718ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (527ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (800ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (581ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 6.75 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2569.
+Total: 4.289208 ms (FindLiveObjects: 0.221811 ms CreateObjectMapping: 0.066631 ms MarkObjects: 3.931680 ms  DeleteObjects: 0.067979 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 352.847659 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(076b738790b0b4b62a6256b093916659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(076b738790b0b4b62a6256b093916659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8a22dfae110468182ee9f6a4811ea0') in 1.681270 seconds 
+  Import took 1.710378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.866395 seconds.
+  path: Assets/heart.jpeg
+  artifactKey: Guid(922892aa06bd94a47b6f9a3f183fa58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heart.jpeg using Guid(922892aa06bd94a47b6f9a3f183fa58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764f72607ca61b44a5ad96d5badec5c9') in 1.362411 seconds 
+  Import took 1.367251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.552945 seconds.
+  path: Assets/IMG_0698.jpeg
+  artifactKey: Guid(c3f50b637186445d08bf2087ea6b2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMG_0698.jpeg using Guid(c3f50b637186445d08bf2087ea6b2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d937d4f9e1159c7792636d7062eafe0') in 0.056623 seconds 
+  Import took 0.066645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005325 seconds.
+  path: Assets/IMG_0698.jpeg
+  artifactKey: Guid(c3f50b637186445d08bf2087ea6b2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMG_0698.jpeg using Guid(c3f50b637186445d08bf2087ea6b2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d937d4f9e1159c7792636d7062eafe0') in 0.019486 seconds 
+  Import took 0.026674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.822730 seconds.
+  path: Assets/twofactor.jpeg
+  artifactKey: Guid(c3f50b637186445d08bf2087ea6b2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/twofactor.jpeg using Guid(c3f50b637186445d08bf2087ea6b2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed5bc28afa466b02814ace07ad6d5d9') in 0.021643 seconds 
+  Import took 0.034183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.387909 seconds.
+  path: Assets/ReferenceObjectLibrary.asset
+  artifactKey: Guid(c4d0c63ddfc02491fb4afeaa4981fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceObjectLibrary.asset using Guid(c4d0c63ddfc02491fb4afeaa4981fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96d999a59186fee579e93520284ef0f') in 0.015030 seconds 
+  Import took 0.022851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.394467 seconds.
+  path: Assets/Barbarian.fbx
+  artifactKey: Guid(b22086ebb0e5041beb798d9e2a2e0bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barbarian.fbx using Guid(b22086ebb0e5041beb798d9e2a2e0bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f8842d128a781618ddfd486a9a1123') in 2.225239 seconds 
+  Import took 2.232229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 290.112661 seconds.
+  path: Assets/landsquid
+  artifactKey: Guid(b35abab7e041e429983bbf4dd952f1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid using Guid(b35abab7e041e429983bbf4dd952f1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9417c09586ffe7c241a183ace10ddaa7') in 0.003742 seconds 
+  Import took 0.015702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.411489 seconds.
+  path: Assets/landsquid/LandSquid.fbx
+  artifactKey: Guid(9bc6257f27ec04dbe9c71b0145afdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.fbx using Guid(9bc6257f27ec04dbe9c71b0145afdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e205889a55d0a8337073b37cbec0573e') in 0.196727 seconds 
+  Import took 0.209488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/landsquid/PlantMonsterTexture.png
+  artifactKey: Guid(d833d7ef460b54ef0b9cada628094dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/PlantMonsterTexture.png using Guid(d833d7ef460b54ef0b9cada628094dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3af67921741c42f7e901fb4a8fa45e5') in 1.616190 seconds 
+  Import took 1.620870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.470139 seconds.
+  path: Assets/landsquid/LandSquid.fbx
+  artifactKey: Guid(9bc6257f27ec04dbe9c71b0145afdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.fbx using Guid(9bc6257f27ec04dbe9c71b0145afdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a493cc57af951c6544b223d6188982') in 0.214673 seconds 
+  Import took 0.229940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.370931 seconds.
+  path: Assets/landsquid/LandSquid.fbx
+  artifactKey: Guid(9bc6257f27ec04dbe9c71b0145afdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.fbx using Guid(9bc6257f27ec04dbe9c71b0145afdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bb5e41d2fbac45b5123bab7d10a765') in 0.276911 seconds 
+  Import took 0.291230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.145266 seconds.
+  path: Assets/landsquid/defaultMat.mat
+  artifactKey: Guid(8959d9bf6543e4db59176871aaa42d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/defaultMat.mat using Guid(8959d9bf6543e4db59176871aaa42d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2439e31c626f8d7cda98f9ecf8384f') in 0.453616 seconds 
+  Import took 0.460256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.731513 seconds.
+  path: Assets/landsquid/LandSquid.fbx
+  artifactKey: Guid(9bc6257f27ec04dbe9c71b0145afdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.fbx using Guid(9bc6257f27ec04dbe9c71b0145afdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2ec444c45578f9c5b3e13407a33b04') in 0.217554 seconds 
+  Import took 0.231993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.488929 seconds.
+  path: Assets/landsquid/LandSquid.prefab
+  artifactKey: Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.prefab using Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0a382b3ebcd3e216617be251585993') in 0.577982 seconds 
+  Import took 0.598828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.841106 seconds.
+  path: Assets/landsquid/LandSquid.prefab
+  artifactKey: Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.prefab using Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a5ca19119c51689f2b75dedc4529f1') in 0.201907 seconds 
+  Import took 0.224761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.391813 seconds.
+  path: Assets/landsquid/LandSquid.prefab
+  artifactKey: Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.prefab using Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64235c7592f69eeac49f18cc7568ebe0') in 0.129983 seconds 
+  Import took 0.149791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.085581 seconds.
+  path: Assets/landsquid/LandSquid.prefab
+  artifactKey: Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.prefab using Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688b7572466014234c585404fb62af5b') in 0.123811 seconds 
+  Import took 0.140374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.281710 seconds.
+  path: Assets/landsquid/LandSquid.prefab
+  artifactKey: Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.prefab using Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783000ad2eecaab98811a54a84b2d1fa') in 0.159990 seconds 
+  Import took 0.173145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.443844 seconds.
+  path: Assets/landsquid/LandSquid.prefab
+  artifactKey: Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.prefab using Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33226c344e3a7d546f46814e83d6934') in 0.320024 seconds 
+  Import took 0.337050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.511142 seconds.
+  path: Assets/landsquid/landsquid_animator.controller
+  artifactKey: Guid(0a160a271dc6443e3a89210ba7b5ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/landsquid_animator.controller using Guid(0a160a271dc6443e3a89210ba7b5ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bce29f659a05a8fecb9b46f6bbd53e') in 0.256368 seconds 
+  Import took 0.262408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.407585 seconds.
+  path: Assets/landsquid/LandSquid.prefab
+  artifactKey: Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid.prefab using Guid(a027adc79a0604d2091a79b1e176291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (landsquid_animator) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (landsquid_animator) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:591)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:605)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'd83d1e5b96db466b97046e027d4b97cc') in 0.205252 seconds 
+  Import took 0.220479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.754811 seconds.
+  path: Assets/landsquid/Armature_Idle_.anim
+  artifactKey: Guid(8e58a20fbecdf4e4189a737e841928ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/Armature_Idle_.anim using Guid(8e58a20fbecdf4e4189a737e841928ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ac60e21eddf7415bf738617752dba8') in 0.235327 seconds 
+  Import took 0.240109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.941230 seconds.
+  path: Assets/landsquid/LandSquid (1) Variant.prefab
+  artifactKey: Guid(88c2d1331c27a4702b1807c8876f4f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/LandSquid (1) Variant.prefab using Guid(88c2d1331c27a4702b1807c8876f4f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (landsquid_animator) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (landsquid_animator) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:591)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:605)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '82aa7c34bfde28aaf0ef3b2a33264a95') in 0.328195 seconds 
+  Import took 0.346034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.996607 seconds.
+  path: Assets/landsquid/heart.prefab
+  artifactKey: Guid(88c2d1331c27a4702b1807c8876f4f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landsquid/heart.prefab using Guid(88c2d1331c27a4702b1807c8876f4f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (landsquid_animator) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (landsquid_animator) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:591)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:605)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '9ca41854284c372817bd6fb6b3f9aedf') in 0.176786 seconds 
+  Import took 0.191207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.307777 seconds.
+  path: Assets/meModel/twofactor.fbx
+  artifactKey: Guid(cfa66ecfd7de440e68fa8f1077be2cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meModel/twofactor.fbx using Guid(cfa66ecfd7de440e68fa8f1077be2cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc13aa7cc7aca535ab40d75f53c0061c') in 0.748726 seconds 
+  Import took 0.758767 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016203 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.99 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.266 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2272ms)
+		BeginReloadAssembly (411ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (275ms)
+		EndReloadAssembly (1738ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (506ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (785ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (10ms)
+				BeforeProcessingInitializeOnLoad (216ms)
+				ProcessInitializeOnLoadAttributes (537ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 6.89 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.1 MB.
+System memory in use after: 238.2 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2617.
+Total: 7.765133 ms (FindLiveObjects: 0.590756 ms CreateObjectMapping: 0.078732 ms MarkObjects: 6.534319 ms  DeleteObjects: 0.559449 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1350.910419 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(076b738790b0b4b62a6256b093916659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(076b738790b0b4b62a6256b093916659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaf606ee374012404c91ca7a4018d8a') in 0.079964 seconds 
+  Import took 0.086468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.212773 seconds.
+  path: Assets/StreamingAssets/Vuforia
+  artifactKey: Guid(53efa7b629c154b86b0128e6d1f1f5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia using Guid(53efa7b629c154b86b0128e6d1f1f5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c6f411da099d004512b1ea2cdfde4b') in 0.002397 seconds 
+  Import took 0.009713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.518007 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(f85f12b328fc9458a80cf256a1a3c911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(f85f12b328fc9458a80cf256a1a3c911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba697402684349d545f1a696c0baff04') in 0.024961 seconds 
+  Import took 0.031707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.379074 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(4efd8f9555a364d0e96cbc8a1f1a23a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(4efd8f9555a364d0e96cbc8a1f1a23a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea02eb853cdd2784ae077b452c997c2d') in 0.007910 seconds 
+  Import took 0.012956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.660303 seconds.
+  path: Assets/StreamingAssets/Vuforia/iMarker.dat
+  artifactKey: Guid(06b021100ff34a9189b8f35b94a29f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia/iMarker.dat using Guid(06b021100ff34a9189b8f35b94a29f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd75c5aacbd022f2148402a3d41507aa') in 0.752176 seconds 
+  Import took 0.757557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.661020 seconds.
+  path: Assets/StreamingAssets/Vuforia/iMarker.xml
+  artifactKey: Guid(975b2db0859243b0a9d5ac72fc3bae91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia/iMarker.xml using Guid(975b2db0859243b0a9d5ac72fc3bae91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8a66a3abb703596db31ed3f065064b') in 2.103488 seconds 
+  Import took 2.107912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.125245 seconds.
+  path: Assets/XR/Loaders/AR Kit Loader.asset
+  artifactKey: Guid(513fbf9beba5746658b0deb834c1e846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/AR Kit Loader.asset using Guid(513fbf9beba5746658b0deb834c1e846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11be2faff8a5320fe53d782fc91c0330') in 0.003565 seconds 
+  Import took 0.008143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.005914 seconds.
+  path: Assets/XR/Settings/AR Kit Settings.asset
+  artifactKey: Guid(914e0c86db54e49fea19b5bd7b7e2a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/AR Kit Settings.asset using Guid(914e0c86db54e49fea19b5bd7b7e2a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e18c56b3918870fa769773e7111654') in 0.005547 seconds 
+  Import took 0.010349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.492753 seconds.
+  path: Assets/twofactor.jpeg
+  artifactKey: Guid(c3f50b637186445d08bf2087ea6b2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/twofactor.jpeg using Guid(c3f50b637186445d08bf2087ea6b2991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6d80cb1e9820ef89d4e00eeea0662b') in 0.071660 seconds 
+  Import took 0.077284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.317117 seconds.
+  path: Assets/heart.jpg
+  artifactKey: Guid(4a1afffe943f84066a75c190febd1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heart.jpg using Guid(4a1afffe943f84066a75c190febd1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b694db5cfbb20a70819bbadbfbb4b0f7') in 1.770548 seconds 
+  Import took 1.774392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112950 seconds.
+  path: Assets/twofactor.jpg
+  artifactKey: Guid(907d9a6b6d89c4697ae01b7652ff716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/twofactor.jpg using Guid(907d9a6b6d89c4697ae01b7652ff716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dd56c2ab51edbebb5a4077eaac1b7a') in 0.026136 seconds 
+  Import took 0.032125 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.14 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.82 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.1 MB.
+System memory in use after: 217.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2613.
+Total: 6.873332 ms (FindLiveObjects: 0.620479 ms CreateObjectMapping: 0.253471 ms MarkObjects: 5.721145 ms  DeleteObjects: 0.276412 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122.759458 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(076b738790b0b4b62a6256b093916659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(076b738790b0b4b62a6256b093916659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93031ddc457ff199f9e472a8754b8d6') in 0.080552 seconds 
+  Import took 0.131959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.427659 seconds.
+  path: Assets/XR
+  artifactKey: Guid(4eccc722c3ea447b986f62e567440658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(4eccc722c3ea447b986f62e567440658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7e9a72c6a273609fce27b28784ba41') in 0.004263 seconds 
+  Import took 0.052573 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.02 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.532 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2534ms)
+		BeginReloadAssembly (444ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (278ms)
+		EndReloadAssembly (1962ms)
+			LoadAssemblies (256ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (677ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (778ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.15 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.6 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2619.
+Total: 8.737093 ms (FindLiveObjects: 0.735860 ms CreateObjectMapping: 0.099688 ms MarkObjects: 7.764905 ms  DeleteObjects: 0.135040 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1348.262486 seconds.
+  path: Assets/multipleImageTracker.cs
+  artifactKey: Guid(8e238d19880694c1ea8ba0746b42243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/multipleImageTracker.cs using Guid(8e238d19880694c1ea8ba0746b42243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6be58e940d1b3749ab992154fae759') in 0.073543 seconds 
+  Import took 0.110755 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.64 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <7c4f3822d44c4a1eb2b550537e3c0500>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.ARKit.LoaderEnabledCheck.UpdateARKitDefines () [0x00028] in /Users/Shared/Unity/MarkersWk4/Library/PackageCache/com.unity.xr.arkit@4.1.7/Editor/ARKitBuildProcessor.cs:336 
+  at UnityEditor.XR.ARKit.LoaderEnabledCheck..cctor () [0x00019] in /Users/Shared/Unity/MarkersWk4/Library/PackageCache/com.unity.xr.arkit@4.1.7/Editor/ARKitBuildProcessor.cs:311 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.041 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2044ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (179ms)
+		EndReloadAssembly (1645ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (565ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (668ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 7.03 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.7 MB.
+System memory in use after: 250.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2622.
+Total: 4.036812 ms (FindLiveObjects: 0.344997 ms CreateObjectMapping: 0.070367 ms MarkObjects: 3.508651 ms  DeleteObjects: 0.111562 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
